@@ -1,0 +1,83 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.formData
+{
+	display: flex;
+	height: 300px;
+	width: 500px;
+	margin: 30px auto;
+	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+	background-color: #fcfcfc;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#item1, #item3
+{
+	text-align: center;
+}
+
+#item2, #item3
+{
+	margin-top: 20px;
+}
+
+#item1 label
+{
+	font-size: 22px;
+	font-family: sans-serif;
+}
+
+#item2 textarea
+{
+	border-radius: 5px;
+	outline: none;
+}
+
+#item3 button
+{
+	font-size: 18px;
+	border: none;
+	background: none;
+	padding: 2px 10px;
+	border-radius: 5px;
+	background-color: #008080;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+table, tr, th, td
+{
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	padding: 20px 100px;
+}
+
+.container, #heading
+{
+	display: none;
+}
+
+.container
+{
+	margin: 50px auto;
+}
+
+#heading
+{
+	text-decoration: underline;
+	margin: 70px 0;
+}
+
+h1
+{
+	font-family: sans-serif;
+	text-align: center;
+	margin: 40px 0;
+}
